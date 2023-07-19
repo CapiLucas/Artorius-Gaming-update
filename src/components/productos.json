@@ -1,0 +1,179 @@
+[
+    {
+        "name":"PC intel5 + 3060",
+        "price":260000,
+        "url":"./images/productosIMG/pc/pci512400f.png",
+        "description":"Pc gamer Intel con una 3060",
+        "categoria":"pc"
+        
+    },
+    {
+        "name":"PC intel7 + 3070",
+        "price":360000,
+        "url":"./images/productosIMG/pc/pci73070.png",
+        "description":"Pc gamer Intel con una 3070",
+        "categoria":"pc"
+        
+    },
+    {
+        "name":"PC intel7 + 3070",
+        "price":3630000,
+        "url":"./images/productosIMG/pc/pci7127003070.png",
+        "description":"Pc gamer Intel con una 3070",
+        "categoria":"pc"
+        
+    },
+    {
+        "name":"PC intel7 + 3080",
+        "price":380000,
+        "url":"./images/productosIMG/pc/pci73080.png",
+        "description":"Pc gamer Intel con una 3080",
+        "categoria":"pc"
+    },
+    {
+        "name":"PC Ryzen5 + 6700XT",
+        "price":365000,
+        "url":"./images/productosIMG/pc/pcryzen5600rx6700.png",
+        "description":"Pc gamer Ryzen con una 6700xt",
+        "categoria":"pc"
+    },
+    {
+        "name":"PC intel7 + 3080",
+        "price":170000,
+        "url":"./images/productosIMG/pc/pcryzen33400.png",
+        "description":"Pc gamer Ryzen con graficos integrados",
+        "categoria":"pc"
+    },
+
+
+    {
+        "name":"Gabinete0",
+        "price":17000,
+        "url":"./images/productosIMG/gabinetes/gabinete0.png",
+        "description":"Gabinete Gamer",
+        "categoria":"gabinete"
+    },
+    {
+        "name":"Gabinete1",
+        "price":20000,
+        "url":"./images/productosIMG/gabinetes/gabinete1.png",
+        "description":"Gabinete Gamer",
+        "categoria":"gabinete"
+    },
+    {
+        "name":"Gabinete2",
+        "price":25000,
+        "url":"./images/productosIMG/gabinetes/gabinete2.png",
+        "description":"Gabinete Gamer",
+        "categoria":"gabinete"
+    },
+    {
+        "name":"Gabinete3",
+        "price":32000,
+        "url":"./images/productosIMG/gabinetes/gabinete3.png",
+        "description":"Gabinete Gamer",
+        "categoria":"gabinete"
+    },
+    {
+        "name":"Gabinete4",
+        "price":33000,
+        "url":"./images/productosIMG/gabinetes/gabinete4.png",
+        "description":"Gabinete Gamer",
+        "categoria":"gabinete"
+    },
+    {
+        "name":"Gabinete5",
+        "price":35000,
+        "url":"./images/productosIMG/gabinetes/gabinete5.png",
+        "description":"Gabinete Gamer",
+        "categoria":"gabinete"
+    },
+
+
+    {
+        "name":"Monitor1",
+        "price":35000,
+        "url":"./images/productosIMG/monitores/Monitor1.png",
+        "description":"Monitor Gamer",
+        "categoria":"Monitor"
+    },
+    {
+        "name":"Monitor2",
+        "price":35000,
+        "url":"./images/productosIMG/monitores/Monitor2.png",
+        "description":"Monitor Gamer",
+        "categoria":"Monitor"
+    },
+    {
+        "name":"Monitor3",
+        "price":35000,
+        "url":"./images/productosIMG/monitores/Monitor3.png",
+        "description":"Monitor Gamer",
+        "categoria":"Monitor"
+    },
+    {
+        "name":"Monitor4",
+        "price":35000,
+        "url":"./images/productosIMG/monitores/Monitor4.png",
+        "description":"Monitor Gamer",
+        "categoria":"Monitor"
+    },
+    {
+        "name":"Monitor5",
+        "price":35000,
+        "url":"./images/productosIMG/monitores/Monitor5.png",
+        "description":"Monitor Gamer",
+        "categoria":"Monitor"
+    },
+    {
+        "name":"Monitor6",
+        "price":35000,
+        "url":"./images/productosIMG/monitores/Monitor6.png",
+        "description":"Monitor Gamer",
+        "categoria":"Monitor"
+    },
+
+
+    {
+        "name":"Notebook1",
+        "price":35000,
+        "url":"./images/productosIMG/notebooks/acerI510300 8GB.png",
+        "description":"Notebook Gamer",
+        "categoria":"Notebook"
+    },
+    {
+        "name":"Notebook2",
+        "price":35000,
+        "url":"./images/productosIMG/notebooks/asusrogI7 1070.png",
+        "description":"Notebook Gamer",
+        "categoria":"Notebook"
+    },
+    {
+        "name":"Notebook3",
+        "price":35000,
+        "url":"./images/productosIMG/notebooks/banghoi532gb.png",
+        "description":"Notebook Gamer",
+        "categoria":"Notebook"
+    },
+    {
+        "name":"Notebook4",
+        "price":35000,
+        "url":"./images/productosIMG/notebooks/hpi524gb.png",
+        "description":"Notebook Gamer",
+        "categoria":"Notebook"
+    },
+    {
+        "name":"Notebook5",
+        "price":35000,
+        "url":"./images/productosIMG/notebooks/msi i5 8gb.png",
+        "description":"Notebook Gamer",
+        "categoria":"Notebook"
+    },
+    {
+        "name":"Notebook6",
+        "price":35000,
+        "url":"./images/productosIMG/notebooks/msiR7 Rx6600.png",
+        "description":"Notebook Gamer",
+        "categoria":"Notebook"
+    }
+]

@@ -1,5 +1,6 @@
 import React from 'react';
 import CartWidget from './cartWidget';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const NavBar = () => {
   return (
@@ -16,12 +17,15 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link" href="#">Computadoras</a>
-            <a className="nav-link" href="#">Monitores</a>
-            <a className="nav-link" href="#">Gabinetes</a>
-            <a className="nav-link" href="#">Notebooks</a>
-            <CartWidget/>
+            <button className="nav-link" >Computadoras</button>
+            <button className="nav-link" >Monitores</button>
+            <button className="nav-link" >Gabinetes</button>
+            <button className="nav-link" >Notebooks</button>
+            <a><CartWidget/></a>
           </div>
+        </div>
+        <div className='UserIcon'>
+          <a href='#'><AccountCircleIcon sx={{ color: 'papayawhip' }} fontSize='large'/></a>
         </div>
       </div>
     </nav>
