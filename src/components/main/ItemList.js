@@ -1,26 +1,15 @@
-import { CardCounter } from "../CardCounter";
+import Item from "./Item";
 
 const ItemList = ({ Productos }) => {
   if (!Productos) {
     return <div>Loading...</div>;
   }
-
-  return (
+  return(
     <div className="cardContainer">
-      {Productos.length > 0 &&
-        Productos.map((product) => {
-          return (
-            <div className="card" key={product.id}>
-              <img className="productImg" src={product.url} alt="img del producto"></img>
-              <h1 className="productName">{product.name}</h1>
-              <CardCounter />
-              <h3 className="productPrice">{product.price}</h3>
-              <p className="productDesc">{product.description}</p>
-            </div>
-          );
-        })}
+      {Productos.map((prod) => <Item producto={prod} key={prod.id}/>)}
     </div>
-  );
+  )
+ 
 };
 
 export default ItemList;

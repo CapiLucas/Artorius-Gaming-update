@@ -4,7 +4,8 @@
         "price":260000,
         "url":"./images/productosIMG/pc/pci512400f.png",
         "description":"Pc gamer Intel con una 3060",
-        "categoria":"pc"
+        "categoria":"pc",
+        "id":"1"
         
     },
     {
@@ -12,15 +13,16 @@
         "price":360000,
         "url":"./images/productosIMG/pc/pci73070.png",
         "description":"Pc gamer Intel con una 3070",
-        "categoria":"pc"
-        
+        "categoria":"pc",
+        "id":"2"
     },
     {
         "name":"PC intel7 + 3070",
         "price":3630000,
         "url":"./images/productosIMG/pc/pci7127003070.png",
         "description":"Pc gamer Intel con una 3070",
-        "categoria":"pc"
+        "categoria":"pc",
+        "id":"3"
         
     },
     {
@@ -28,21 +30,24 @@
         "price":380000,
         "url":"./images/productosIMG/pc/pci73080.png",
         "description":"Pc gamer Intel con una 3080",
-        "categoria":"pc"
+        "categoria":"pc",
+        "id":"4"
     },
     {
         "name":"PC Ryzen5 + 6700XT",
         "price":365000,
         "url":"./images/productosIMG/pc/pcryzen5600rx6700.png",
         "description":"Pc gamer Ryzen con una 6700xt",
-        "categoria":"pc"
+        "categoria":"pc",
+        "id":"5"
     },
     {
         "name":"PC intel7 + 3080",
         "price":170000,
         "url":"./images/productosIMG/pc/pcryzen33400.png",
         "description":"Pc gamer Ryzen con graficos integrados",
-        "categoria":"pc"
+        "categoria":"pc",
+        "id":"6"
     },
 
 
@@ -51,42 +56,48 @@
         "price":17000,
         "url":"./images/productosIMG/gabinetes/gabinete0.png",
         "description":"Gabinete Gamer",
-        "categoria":"gabinete"
+        "categoria":"gabinete",
+        "id":"7"
     },
     {
         "name":"Gabinete1",
         "price":20000,
         "url":"./images/productosIMG/gabinetes/gabinete1.png",
         "description":"Gabinete Gamer",
-        "categoria":"gabinete"
+        "categoria":"gabinete",
+        "id":"8"
     },
     {
         "name":"Gabinete2",
         "price":25000,
         "url":"./images/productosIMG/gabinetes/gabinete2.png",
         "description":"Gabinete Gamer",
-        "categoria":"gabinete"
+        "categoria":"gabinete",
+        "id":"9"
     },
     {
         "name":"Gabinete3",
         "price":32000,
         "url":"./images/productosIMG/gabinetes/gabinete3.png",
         "description":"Gabinete Gamer",
-        "categoria":"gabinete"
+        "categoria":"gabinete",
+        "id":"10"
     },
     {
         "name":"Gabinete4",
         "price":33000,
         "url":"./images/productosIMG/gabinetes/gabinete4.png",
         "description":"Gabinete Gamer",
-        "categoria":"gabinete"
+        "categoria":"gabinete",
+        "id":"11"
     },
     {
         "name":"Gabinete5",
         "price":35000,
         "url":"./images/productosIMG/gabinetes/gabinete5.png",
         "description":"Gabinete Gamer",
-        "categoria":"gabinete"
+        "categoria":"gabinete",
+        "id":"12"
     },
 
 
@@ -95,42 +106,48 @@
         "price":35000,
         "url":"./images/productosIMG/monitores/Monitor1.png",
         "description":"Monitor Gamer",
-        "categoria":"Monitor"
+        "categoria":"Monitor",
+        "id":"13"
     },
     {
         "name":"Monitor2",
         "price":35000,
         "url":"./images/productosIMG/monitores/Monitor2.png",
         "description":"Monitor Gamer",
-        "categoria":"Monitor"
+        "categoria":"Monitor",
+        "id":"14"
     },
     {
         "name":"Monitor3",
         "price":35000,
         "url":"./images/productosIMG/monitores/Monitor3.png",
         "description":"Monitor Gamer",
-        "categoria":"Monitor"
+        "categoria":"Monitor",
+        "id":"15"
     },
     {
         "name":"Monitor4",
         "price":35000,
         "url":"./images/productosIMG/monitores/Monitor4.png",
         "description":"Monitor Gamer",
-        "categoria":"Monitor"
+        "categoria":"Monitor",
+        "id":"16"
     },
     {
         "name":"Monitor5",
         "price":35000,
-        "url":"./images/productosIMG/monitores/Monitor5.png",
+        "url":"../images/productosIMG/monitores/Monitor5.png",
         "description":"Monitor Gamer",
-        "categoria":"Monitor"
+        "categoria":"Monitor",
+        "id":"17"
     },
     {
         "name":"Monitor6",
         "price":35000,
         "url":"./images/productosIMG/monitores/Monitor6.png",
         "description":"Monitor Gamer",
-        "categoria":"Monitor"
+        "categoria":"Monitor",
+        "id":"18"
     },
 
 
@@ -139,41 +156,47 @@
         "price":35000,
         "url":"./images/productosIMG/notebooks/acerI510300 8GB.png",
         "description":"Notebook Gamer",
-        "categoria":"Notebook"
+        "categoria":"Notebook",
+        "id":"19"
     },
     {
         "name":"Notebook2",
         "price":35000,
         "url":"./images/productosIMG/notebooks/asusrogI7 1070.png",
         "description":"Notebook Gamer",
-        "categoria":"Notebook"
+        "categoria":"Notebook",
+        "id":"20"
     },
     {
         "name":"Notebook3",
         "price":35000,
         "url":"./images/productosIMG/notebooks/banghoi532gb.png",
         "description":"Notebook Gamer",
-        "categoria":"Notebook"
+        "categoria":"Notebook",
+        "id":"21"
     },
     {
         "name":"Notebook4",
         "price":35000,
         "url":"./images/productosIMG/notebooks/hpi524gb.png",
         "description":"Notebook Gamer",
-        "categoria":"Notebook"
+        "categoria":"Notebook",
+        "id":"22"
     },
     {
         "name":"Notebook5",
         "price":35000,
         "url":"./images/productosIMG/notebooks/msi i5 8gb.png",
         "description":"Notebook Gamer",
-        "categoria":"Notebook"
+        "categoria":"Notebook",
+        "id":"23"
     },
     {
         "name":"Notebook6",
         "price":35000,
         "url":"./images/productosIMG/notebooks/msiR7 Rx6600.png",
         "description":"Notebook Gamer",
-        "categoria":"Notebook"
+        "categoria":"Notebook",
+        "id":"24"
     }
 ]

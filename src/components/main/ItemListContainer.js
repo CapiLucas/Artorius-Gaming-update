@@ -32,14 +32,16 @@ export const ItemListContainer = ({ category }) => {
   }, [category]);
 
   return (
-    <div>
-      {loading ? (
-        <div>Loading...</div>
-      ) : (
-        <div>
-          <ItemList Productos={Productos} />
-        </div>
-      )}
+    <div className="container">
+      <div>
+        {loading ? (
+          <div>Loading...</div>
+        ) : (
+          <div>
+            <ItemList Productos={Productos} />
+          </div>
+        )}
+      </div>
     </div>
   );
 };
