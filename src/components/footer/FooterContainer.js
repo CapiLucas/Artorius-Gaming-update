@@ -5,11 +5,6 @@ function FooterContainer() {
   return (
         <footer>
             <div class="container">
-
-                <div class="logo">
-                <img src="../images/logo.png" alt="Logo"/>
-                </div>
-
                 <div class="mail">
                 <a href="mailto:lucas772003@hotmail.com"><i class="fa-solid fa-envelope"></i>Lucas772003@hotmail.com</a>
                 </div>

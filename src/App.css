@@ -174,7 +174,7 @@ footer {
   color: white;
   padding: 20px 0;
 }
-.container {
+footer .container {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -188,12 +188,6 @@ footer {
   width: 80px;
   border-radius: 15px;
   display: block;
-}
-.logo {
-  width: 25%;
-}
-.logo img {
-  width: 35%;
 }
 .mail {
   width: 25%;
@@ -266,17 +260,14 @@ footer {
   #jokeContainer{
     width: 155px;
   }
-  .logo img {
-    width: 100%;
-  }
   .info p {
-    font-size: 6px;
+    font-size: 8px;
   }
   .credits p {
-    font-size: 6px;
+    font-size: 8px;
   }
   .mail a {
-    font-size: 6px;
+    font-size: 8px;
   }
   .card{
     width: 300px;
