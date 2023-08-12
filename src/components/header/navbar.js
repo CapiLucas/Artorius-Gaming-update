@@ -18,10 +18,10 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link to='/pc'><button className="nav-link" >Computadoras</button></Link>
-            <Link to='/Monitores'><button className="nav-link" >Monitores</button></Link>
-            <Link to='/Gabinetes'><button className="nav-link" >Gabinetes</button></Link>
-            <Link to='/Notebooks'><button className="nav-link" >Notebooks</button></Link>
+            <Link to='/productos/pc'><button className="nav-link" >Computadoras</button></Link>
+            <Link to='/productos/Monitores'><button className="nav-link" >Monitores</button></Link>
+            <Link to='/productos/Gabinetes'><button className="nav-link" >Gabinetes</button></Link>
+            <Link to='/productos/Notebooks'><button className="nav-link" >Notebooks</button></Link>
             <a><CartWidget/></a>
           </div>
         </div>

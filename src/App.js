@@ -7,6 +7,8 @@ import {Banner} from "./components/header/Banner";
 import { ItemListContainer } from "./components/main/ItemListContainer";
 import {Sifbot} from "./components/Sifbot";
 import { BrowserRouter, Route, Routes} from "react-router-dom";
+import ItemDetailContainer from "./components/main/ItemDetailContainer";
+import FooterContainer from "./components/footer/FooterContainer";
 
 
 function App() {
@@ -20,12 +22,13 @@ function App() {
           <Saludo greeting="¡Bienvenido a nuestra tienda en línea!" />
           <Routes>
             <Route path="/" element={<ItemListContainer/>} />
-            <Route path="/PC" element={<ItemListContainer category={"pc"} />} />
-            <Route path="/Monitores" element={<ItemListContainer category={"Monitor"} />} />
-            <Route path="/Gabinetes" element={<ItemListContainer category={"gabinete"} />} />
-            <Route path="/Notebooks" element={<ItemListContainer category={"Notebook"} />} />
-
-          </Routes>  
+            <Route path="/item/:id" element={<ItemDetailContainer/>}/>
+            <Route path="/productos/PC" element={<ItemListContainer category={"pc"} />} />
+            <Route path="/productos/Monitores" element={<ItemListContainer category={"Monitor"} />} />
+            <Route path="/productos/Gabinetes" element={<ItemListContainer category={"gabinete"} />} />
+            <Route path="/productos/Notebooks" element={<ItemListContainer category={"Notebook"} />} />
+          </Routes>
+          <FooterContainer/>  
         </BrowserRouter>
     </div>
   );

@@ -169,6 +169,79 @@ nav{
   cursor: pointer;
   transition: background-color 0.3s;
 }
+footer {
+  background-color: #2958d8;
+  color: white;
+  padding: 20px 0;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nosotros{
+  border: 1px solid black;
+  background-color: rgb(35, 90, 107);
+  color: black;
+  font-weight: 400;
+  width: 80px;
+  border-radius: 15px;
+  display: block;
+}
+.logo {
+  width: 25%;
+}
+.logo img {
+  width: 35%;
+}
+.mail {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 35%;
+}
+.info h3 {
+  font-size: 20px;
+}
+.info p {
+  font-size: 14px;
+}
+.credits {
+  width: 25%;
+}
+.credits p {
+  font-size: 12px;
+}
+.containerDetail{
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.producto-detalle{
+  width: 600px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  margin: 15px;
+
+}
+.productImgDetail{
+  max-width: 400px;
+  min-width: 120px;
+}
+
 @media (max-width: 768px) {
   .banner{
     height: 75vh;
@@ -190,6 +263,21 @@ nav{
   }
 }
 @media (max-width: 425px) {
+  #jokeContainer{
+    width: 155px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .info p {
+    font-size: 6px;
+  }
+  .credits p {
+    font-size: 6px;
+  }
+  .mail a {
+    font-size: 6px;
+  }
   .card{
     width: 300px;
   }
