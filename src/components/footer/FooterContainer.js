@@ -6,7 +6,8 @@ function FooterContainer() {
         <footer>
             <div class="container">
                 <div class="mail">
-                <a href="mailto:lucas772003@hotmail.com"><i class="fa-solid fa-envelope"></i>Lucas772003@hotmail.com</a>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:ventas@ArtoriusGaming.com.ar">ArtoriusGaming.com.ar</a>
                 </div>
 
                 <div class="info">
@@ -15,7 +16,8 @@ function FooterContainer() {
                 </div>
 
                 <div class="credits">
-                <p>© 2023 Todos los derechos reservados. Lucas Torres.</p>
+                <p>© 2023 Todos los derechos reservados. ArtoriusGamingCompany.</p>
+                <p>Encontranos en Av.Fake 123</p>
                 </div>
             </div>
         </footer>

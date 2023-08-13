@@ -5,7 +5,9 @@
         "url":"../images/productosIMG/pc/pci512400f.png",
         "description":"Pc gamer Intel con una 3060",
         "categoria":"pc",
-        "id":1
+        "id":1,
+        "stock":7
+
         
     },
     {
@@ -14,7 +16,8 @@
         "url":"../images/productosIMG/pc/pci73070.png",
         "description":"Pc gamer Intel con una 3070",
         "categoria":"pc",
-        "id":2
+        "id":2,
+        "stock":5
     },
     {
         "name":"PC intel7 + 3070",
@@ -22,7 +25,8 @@
         "url":"../images/productosIMG/pc/pci7127003070.png",
         "description":"Pc gamer Intel con una 3070",
         "categoria":"pc",
-        "id":3
+        "id":3,
+        "stock":6
         
     },
     {
@@ -31,7 +35,8 @@
         "url":"../images/productosIMG/pc/pci73080.png",
         "description":"Pc gamer Intel con una 3080",
         "categoria":"pc",
-        "id":4
+        "id":4,
+        "stock":2
     },
     {
         "name":"PC Ryzen5 + 6700XT",
@@ -39,7 +44,8 @@
         "url":"../images/productosIMG/pc/pcryzen5600rx6700.png",
         "description":"Pc gamer Ryzen con una 6700xt",
         "categoria":"pc",
-        "id":5
+        "id":5,
+        "stock":4
     },
     {
         "name":"PC intel7 + 3080",
@@ -47,7 +53,8 @@
         "url":"../images/productosIMG/pc/pcryzen33400.png",
         "description":"Pc gamer Ryzen con graficos integrados",
         "categoria":"pc",
-        "id":6
+        "id":6,
+        "stock":10
     },
 
 
@@ -57,7 +64,8 @@
         "url":"../images/productosIMG/gabinetes/gabinete0.png",
         "description":"Gabinete Gamer",
         "categoria":"gabinete",
-        "id":7
+        "id":7,
+        "stock":5
     },
     {
         "name":"Gabinete1",
@@ -65,7 +73,8 @@
         "url":"../images/productosIMG/gabinetes/gabinete1.png",
         "description":"Gabinete Gamer",
         "categoria":"gabinete",
-        "id":8
+        "id":8,
+        "stock":5
     },
     {
         "name":"Gabinete2",
@@ -73,7 +82,8 @@
         "url":"../images/productosIMG/gabinetes/gabinete2.png",
         "description":"Gabinete Gamer",
         "categoria":"gabinete",
-        "id":9
+        "id":9,
+        "stock":10
     },
     {
         "name":"Gabinete3",
@@ -81,7 +91,8 @@
         "url":"../images/productosIMG/gabinetes/gabinete3.png",
         "description":"Gabinete Gamer",
         "categoria":"gabinete",
-        "id":10
+        "id":10,
+        "stock":10
     },
     {
         "name":"Gabinete4",
@@ -89,7 +100,8 @@
         "url":"../images/productosIMG/gabinetes/gabinete4.png",
         "description":"Gabinete Gamer",
         "categoria":"gabinete",
-        "id":11
+        "id":11,
+        "stock":10
     },
     {
         "name":"Gabinete5",
@@ -97,7 +109,8 @@
         "url":"../images/productosIMG/gabinetes/gabinete5.png",
         "description":"Gabinete Gamer",
         "categoria":"gabinete",
-        "id":12
+        "id":12,
+        "stock":4
     },
 
 
@@ -107,7 +120,8 @@
         "url":"../images/productosIMG/monitores/Monitor1.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
-        "id":13
+        "id":13,
+        "stock":8
     },
     {
         "name":"Monitor2",
@@ -115,7 +129,8 @@
         "url":"../images/productosIMG/monitores/Monitor2.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
-        "id":14
+        "id":14,
+        "stock":5
     },
     {
         "name":"Monitor3",
@@ -123,7 +138,8 @@
         "url":"../images/productosIMG/monitores/Monitor3.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
-        "id":15
+        "id":15,
+        "stock":2
     },
     {
         "name":"Monitor4",
@@ -131,7 +147,8 @@
         "url":"../images/productosIMG/monitores/Monitor4.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
-        "id":16
+        "id":16,
+        "stock":3
     },
     {
         "name":"Monitor5",
@@ -139,7 +156,8 @@
         "url":"../images/productosIMG/monitores/Monitor5.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
-        "id":17
+        "id":17,
+        "stock":10
     },
     {
         "name":"Monitor6",
@@ -147,7 +165,8 @@
         "url":"../images/productosIMG/monitores/Monitor6.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
-        "id":18
+        "id":18,
+        "stock":6
     },
 
 
@@ -157,7 +176,8 @@
         "url":"../images/productosIMG/notebooks/acerI510300 8GB.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
-        "id":19
+        "id":19,
+        "stock":5
     },
     {
         "name":"Notebook2",
@@ -165,7 +185,8 @@
         "url":"../images/productosIMG/notebooks/asusrogI7 1070.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
-        "id":20
+        "id":20,
+        "stock":10
     },
     {
         "name":"Notebook3",
@@ -173,7 +194,8 @@
         "url":"../images/productosIMG/notebooks/banghoi532gb.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
-        "id":21
+        "id":21,
+        "stock":7
     },
     {
         "name":"Notebook4",
@@ -181,7 +203,8 @@
         "url":"../images/productosIMG/notebooks/hpi524gb.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
-        "id":22
+        "id":22,
+        "stock":5
     },
     {
         "name":"Notebook5",
@@ -189,7 +212,8 @@
         "url":"../images/productosIMG/notebooks/msi i5 8gb.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
-        "id":23
+        "id":23,
+        "stock":6
     },
     {
         "name":"Notebook6",
@@ -197,6 +221,7 @@
         "url":"../images/productosIMG/notebooks/msiR7 Rx6600.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
-        "id":24
+        "id":24,
+        "stock":10
     }
 ]

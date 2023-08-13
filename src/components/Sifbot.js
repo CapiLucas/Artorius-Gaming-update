@@ -35,7 +35,7 @@ export const Sifbot = () => {
     return (
         <div className="sif">
             <h3>SIFBOT</h3>
-            <img src="./images/sif.png" alt="sif" onClick={handleClick} />
+            <img src="../images/sif.png" alt="sif" onClick={handleClick} />
             <div id="jokeContainer">
                 <p id="joke"></p>
                 <p id="setup"></p>
