@@ -12,6 +12,7 @@ import FooterContainer from "./components/footer/FooterContainer";
 import Nosotros from "./components/main/Nosotros";
 import { CartProvider } from "./components/context/CartContext";
 import Cart from "./components/main/Cart";
+import Checkout from "./components/main/Checkout";
 
 
 function App() {
@@ -32,8 +33,7 @@ function App() {
             <Route path="/productos/Gabinetes" element={<ItemListContainer category={"gabinete"} />} />
             <Route path="/productos/Notebooks" element={<ItemListContainer category={"Notebook"} />} />
             <Route path="/cart" element={<Cart/>} />
-
-
+            <Route path="/checkout" element={<Checkout/>} />
           </Routes>
           <FooterContainer/>  
         </BrowserRouter>

@@ -95,10 +95,21 @@ nav{
   align-items: center;
 }
 .borrar{
+  width: 150px;
   border: 1px solid red;
   background: red;
   margin-bottom: 5px;
-  border-radius: 10px;
+  border-radius: 15px;
+  color: black;
+}
+.checkoutlink{
+  width: 150px;
+  display: inline-block;
+  border: 1px solid green;
+  background: green;
+  margin-bottom: 10px;
+  border-radius:15px ;
+  color: black;
 }
 .banner{
   margin-top: 86px;
@@ -299,7 +310,6 @@ footer .container {
   align-items: center;
   background-color: aquamarine;
   margin: 15px;
-
 }
 .productImgDetail{
   max-width: 50%;
@@ -309,7 +319,26 @@ footer .container {
   max-width: 40%;
   height: auto;
 }
-
+.formulario{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+.formulario input{
+  margin: 5px;
+  width: 320px;
+  border: 3px solid;
+  border-radius: 15px;
+}
+.formulario button{
+  width: 100px;
+  margin: 5px;
+  border: 3px solid;
+  border-radius: 15px;
+  background-color: green;
+}
 @media (max-width: 768px) {
   .banner{
     height: 75vh;
