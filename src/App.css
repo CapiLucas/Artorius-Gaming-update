@@ -6,9 +6,6 @@
   height: 40vmin;
   pointer-events: none;
 }
-.cart-widget{
-  display: flex;
-}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -40,6 +37,9 @@
 }
 a{
   text-decoration: none!important;
+}
+.background{
+  background-color: aliceblue;
 }
 nav{
   position: fixed!important;
@@ -74,6 +74,31 @@ nav{
   position: absolute;
   top: 25px;
   right: 5px;
+}
+.cart-widget{
+  display: flex;
+}
+.cartItem{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid;
+  width: 320px;
+  margin-bottom: 15px;
+}
+.CartItemContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.borrar{
+  border: 1px solid red;
+  background: red;
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
 .banner{
   margin-top: 86px;
@@ -112,12 +137,6 @@ nav{
 }
 .UserIcon{
   margin-left: 15px;
-}
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 .cardContainer{
   max-width: 1300px;
@@ -284,6 +303,10 @@ footer .container {
 }
 .productImgDetail{
   max-width: 50%;
+  height: auto;
+}
+.productImgCart{
+  max-width: 40%;
   height: auto;
 }
 

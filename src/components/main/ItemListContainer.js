@@ -32,8 +32,8 @@ export const ItemListContainer = ({ category }) => {
   }, [category]);
 
   return (
-    <div className="container">
-      <div>
+    <div className="background">
+      <div className="container">
         {loading ? (
           <div>Loading...</div>
         ) : (

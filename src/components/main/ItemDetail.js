@@ -6,7 +6,7 @@ function ItemDetail({item}) {
 
   const {carrito, agregaralCarrito}=useContext(CartContext);
 
-  const [cantidad, setCantidad] = useState(0);
+  const [cantidad, setCantidad] = useState(1);
 
   const sumar = () => {
     cantidad < item.stock && setCantidad(cantidad+1);

@@ -12,6 +12,7 @@ import FooterContainer from "./components/footer/FooterContainer";
 import Nosotros from "./components/main/Nosotros";
 import { useState } from "react";
 import { CartContext } from "./components/context/CartContext";
+import Cart from "./components/main/Cart";
 
 
 function App() {
@@ -33,9 +34,22 @@ function App() {
     setCarrito(nuevoCarrito)
   }
 
+  const CartQuantity = () => {
+    return carrito.length
+  }
+
+  const precioTotal = () => {
+    return carrito.reduce((acc, prod) => acc + prod.price * prod.cantidad, 0) 
+  }
+
+  const vaciarCarrito = () => {
+    setCarrito([])
+}
+
+
   return (
     <div className="App">
-      <CartContext.Provider value={{carrito, agregaralCarrito}}>
+      <CartContext.Provider value={{carrito, agregaralCarrito, CartQuantity, precioTotal, vaciarCarrito}}>
         <BrowserRouter>
           <Sifbot/>
           <NavBar />
@@ -49,6 +63,8 @@ function App() {
             <Route path="/productos/Monitores" element={<ItemListContainer category={"Monitor"} />} />
             <Route path="/productos/Gabinetes" element={<ItemListContainer category={"gabinete"} />} />
             <Route path="/productos/Notebooks" element={<ItemListContainer category={"Notebook"} />} />
+            <Route path="/cart" element={<Cart/>} />
+
 
           </Routes>
           <FooterContainer/>  

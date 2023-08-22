@@ -59,7 +59,7 @@
 
 
     {
-        "name":"Gabinete0",
+        "name":"Gabinete NZXT   ",
         "price":17000,
         "url":"../images/productosIMG/gabinetes/gabinete0.png",
         "description":"Gabinete Gamer",
@@ -68,7 +68,7 @@
         "stock":5
     },
     {
-        "name":"Gabinete1",
+        "name":"Gabinete Xigmatek",
         "price":20000,
         "url":"../images/productosIMG/gabinetes/gabinete1.png",
         "description":"Gabinete Gamer",
@@ -77,7 +77,7 @@
         "stock":5
     },
     {
-        "name":"Gabinete2",
+        "name":"Gabinete Xigmatek",
         "price":25000,
         "url":"../images/productosIMG/gabinetes/gabinete2.png",
         "description":"Gabinete Gamer",
@@ -86,7 +86,7 @@
         "stock":10
     },
     {
-        "name":"Gabinete3",
+        "name":"Gabinete Medusa",
         "price":32000,
         "url":"../images/productosIMG/gabinetes/gabinete3.png",
         "description":"Gabinete Gamer",
@@ -95,7 +95,7 @@
         "stock":10
     },
     {
-        "name":"Gabinete4",
+        "name":"Gabinete Kolink",
         "price":33000,
         "url":"../images/productosIMG/gabinetes/gabinete4.png",
         "description":"Gabinete Gamer",
@@ -104,8 +104,8 @@
         "stock":10
     },
     {
-        "name":"Gabinete5",
-        "price":35000,
+        "name":"Gabinete ROG ",
+        "price":65000,
         "url":"../images/productosIMG/gabinetes/gabinete5.png",
         "description":"Gabinete Gamer",
         "categoria":"gabinete",
@@ -115,8 +115,8 @@
 
 
     {
-        "name":"Monitor1",
-        "price":35000,
+        "name":"Monitor Samsung",
+        "price":45000,
         "url":"../images/productosIMG/monitores/Monitor1.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
@@ -124,7 +124,7 @@
         "stock":8
     },
     {
-        "name":"Monitor2",
+        "name":"Monitor Gigabyte",
         "price":35000,
         "url":"../images/productosIMG/monitores/Monitor2.png",
         "description":"Monitor Gamer",
@@ -133,8 +133,8 @@
         "stock":5
     },
     {
-        "name":"Monitor3",
-        "price":35000,
+        "name":"Monitor ViewSonic",
+        "price":38000,
         "url":"../images/productosIMG/monitores/Monitor3.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
@@ -142,8 +142,8 @@
         "stock":2
     },
     {
-        "name":"Monitor4",
-        "price":35000,
+        "name":"Monitor TUF",
+        "price":40000,
         "url":"../images/productosIMG/monitores/Monitor4.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
@@ -151,8 +151,8 @@
         "stock":3
     },
     {
-        "name":"Monitor5",
-        "price":35000,
+        "name":"Monitor ViewSonic",
+        "price":40000,
         "url":"../images/productosIMG/monitores/Monitor5.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
@@ -160,8 +160,8 @@
         "stock":10
     },
     {
-        "name":"Monitor6",
-        "price":35000,
+        "name":"Monitor MSI",
+        "price":50000,
         "url":"../images/productosIMG/monitores/Monitor6.png",
         "description":"Monitor Gamer",
         "categoria":"Monitor",
@@ -171,8 +171,8 @@
 
 
     {
-        "name":"Notebook1",
-        "price":35000,
+        "name":"Notebook Acer",
+        "price":135000,
         "url":"../images/productosIMG/notebooks/acerI510300 8GB.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
@@ -180,8 +180,8 @@
         "stock":5
     },
     {
-        "name":"Notebook2",
-        "price":35000,
+        "name":"Notebook Rog",
+        "price":132000,
         "url":"../images/productosIMG/notebooks/asusrogI7 1070.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
@@ -189,8 +189,8 @@
         "stock":10
     },
     {
-        "name":"Notebook3",
-        "price":35000,
+        "name":"Notebook Bangho",
+        "price":185000,
         "url":"../images/productosIMG/notebooks/banghoi532gb.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
@@ -198,8 +198,8 @@
         "stock":7
     },
     {
-        "name":"Notebook4",
-        "price":35000,
+        "name":"Notebook HP",
+        "price":190000,
         "url":"../images/productosIMG/notebooks/hpi524gb.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
@@ -207,8 +207,8 @@
         "stock":5
     },
     {
-        "name":"Notebook5",
-        "price":35000,
+        "name":"Notebook MSI",
+        "price":305000,
         "url":"../images/productosIMG/notebooks/msi i5 8gb.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
@@ -216,8 +216,8 @@
         "stock":6
     },
     {
-        "name":"Notebook6",
-        "price":35000,
+        "name":"Notebook MSI",
+        "price":205000,
         "url":"../images/productosIMG/notebooks/msiR7 Rx6600.png",
         "description":"Notebook Gamer",
         "categoria":"Notebook",
