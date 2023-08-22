@@ -32,7 +32,7 @@ const Checkout = () => {
             <div className='container'>
                 <h1>Muchas Gracias por tu compra</h1>
                 <p>Tu numero de pedido es: {pedidoId}</p>
-                <p>Para proseguir envia {precioTotal()} al CBU 0000003100037833799807 con los ultimos 4 digitos del ID de tu compra</p>
+                <p>Para proseguir envia {precioTotal()} al CVU 0000003100037833799807 con los ultimos 4 digitos del ID de tu compra</p>
                 <p>Se acepta transferencia, debito y credito</p>
             </div>
         )
