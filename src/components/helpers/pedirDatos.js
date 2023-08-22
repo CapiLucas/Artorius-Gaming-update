@@ -1,15 +1,19 @@
 import data from "../productos.json"
 
-export const pedirDatos = () => {
-    return new Promise((resolve, reject) => { // Corrected 'Promise' with a capital "P"
-        setTimeout(() => {
-            resolve(data);
-        }, 500)
-    })
-}
+export const pedirProductos = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (data) {
+          resolve(data);
+        } else {
+          reject(new Error("Failed to fetch data"));
+        }
+      }, 1000);
+    });
+  };
 
 export const pedirItemPorId = (id) => {
-    return new Promise((resolve, reject) => { // Corrected 'Promise' with a capital "P"
+    return new Promise((resolve, reject) => {
         const item = data.find((el) => el.id === id)
 
         if (item) {

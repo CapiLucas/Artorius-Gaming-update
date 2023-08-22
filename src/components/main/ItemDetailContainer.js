@@ -1,27 +1,34 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-import { pedirItemPorId } from '../helpers/pedirDatos';
+import React, { useState, useEffect } from 'react';
 import ItemDetail from './ItemDetail';
 import { useParams } from 'react-router-dom';
+import { doc, getDoc } from "firebase/firestore";
+import { db } from '../../firebase/config';
 
-const ItemDetailContainer = ({itemId}) =>{
-
-    const[item, setItem] = useState(null);
-    const id = useParams().id;
+const ItemDetailContainer = () => {
+    const [item, setItem] = useState(null);
+    const { id } = useParams();
 
     useEffect(() => {
-        pedirItemPorId(Number(id))
-            .then((res) => {
-                setItem(res)
+        const docRef = doc(db, "productos", id);
+        
+        getDoc(docRef)
+            .then((resp) => {
+                if (resp.exists()) {
+                    setItem({ ...resp.data(), id: resp.id });
+                } else {
+                    console.log("Document not found");
+                }
             })
-    }, [id])
-    
+            .catch(error => {
+                console.error("Error fetching document:", error);
+            });
+    }, [id]);
 
-    return(
+    return (
         <div>
-            {item && <ItemDetail item={item}/>}
+            {item && <ItemDetail item={item} />}
         </div>
-    )
-}
+    );
+};
 
-export default ItemDetailContainer
+export default ItemDetailContainer;

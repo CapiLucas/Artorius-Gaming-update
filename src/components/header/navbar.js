@@ -22,11 +22,11 @@ const NavBar = () => {
             <Link to='/productos/Monitores'><button className="nav-link" >Monitores</button></Link>
             <Link to='/productos/Gabinetes'><button className="nav-link" >Gabinetes</button></Link>
             <Link to='/productos/Notebooks'><button className="nav-link" >Notebooks</button></Link>
-            <a><CartWidget/></a>
+            <CartWidget/>
           </div>
         </div>
         <div className='UserIcon'>
-          <a href='#'><AccountCircleIcon sx={{ color: 'papayawhip' }} fontSize='large'/></a>
+          <AccountCircleIcon sx={{ color: 'papayawhip' }} fontSize='large'/>
         </div>
       </div>
     </nav>

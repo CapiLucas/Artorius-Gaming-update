@@ -35,9 +35,7 @@ function Cart() {
                     <h2>Precio total: {precioTotal()}</h2>
                     <button onClick={handleVaciar} className='borrar'>Vaciar Carrito</button>
                 </>:
-                <h2>El carrito esta vacio:</h2>
-               
-
+                <h2>El carrito está vacío</h2>
             }
 
         </div>

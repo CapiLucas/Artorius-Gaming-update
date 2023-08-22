@@ -10,46 +10,14 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 import ItemDetailContainer from "./components/main/ItemDetailContainer";
 import FooterContainer from "./components/footer/FooterContainer";
 import Nosotros from "./components/main/Nosotros";
-import { useState } from "react";
-import { CartContext } from "./components/context/CartContext";
+import { CartProvider } from "./components/context/CartContext";
 import Cart from "./components/main/Cart";
 
 
 function App() {
-
-  const [carrito, setCarrito] = useState([]);
-
-  const agregaralCarrito = (item, cantidad) => {
-
-    const itemAgregado = {...item, cantidad };
-
-    const nuevoCarrito = [...carrito];
-    const carritoHelper = nuevoCarrito.find((producto) => producto.id === itemAgregado.id);
-
-    if (carritoHelper){
-      carritoHelper.cantidad = cantidad
-    }else{
-      nuevoCarrito.push(itemAgregado)
-    }
-    setCarrito(nuevoCarrito)
-  }
-
-  const CartQuantity = () => {
-    return carrito.length
-  }
-
-  const precioTotal = () => {
-    return carrito.reduce((acc, prod) => acc + prod.price * prod.cantidad, 0) 
-  }
-
-  const vaciarCarrito = () => {
-    setCarrito([])
-}
-
-
   return (
     <div className="App">
-      <CartContext.Provider value={{carrito, agregaralCarrito, CartQuantity, precioTotal, vaciarCarrito}}>
+      <CartProvider>
         <BrowserRouter>
           <Sifbot/>
           <NavBar />
@@ -69,7 +37,7 @@ function App() {
           </Routes>
           <FooterContainer/>  
         </BrowserRouter>
-      </CartContext.Provider>
+      </CartProvider>
     </div>
   );
 

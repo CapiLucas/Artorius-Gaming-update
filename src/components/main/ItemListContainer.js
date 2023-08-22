@@ -1,28 +1,27 @@
 import { useState, useEffect } from "react";
-import data from "../productos.json";
 import ItemList from "./ItemList";
+import { collection, query, where, getDocs } from "firebase/firestore";
+import { db } from "../../firebase/config";
+import { useParams } from "react-router-dom";
 
 export const ItemListContainer = ({ category }) => {
   const [Productos, setProductos] = useState([]);
   const [loading, setLoading] = useState(true);
-
-  const pedirProductos = () => {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        if (data) {
-          resolve(data);
-        } else {
-          reject(new Error("Failed to fetch data"));
-        }
-      }, 1000);
-    });
-  };
+  const categoria = useParams().categoria;
 
   useEffect(() => {
-    pedirProductos()
-      .then((res) => {
-        const filteredProducts = category ? res.filter((product) => product.categoria === category) : res;
-        setProductos(filteredProducts);
+    const productRef = collection(db, "productos");
+
+    let productQuery = productRef;
+    if (category) {
+      productQuery = query(productRef, where("categoria", "==", category));
+    }
+
+    getDocs(productQuery)
+      .then((resp) => {
+        setProductos(
+          resp.docs.map((doc) => ({ ...doc.data(), id: doc.id }))
+        );
         setLoading(false);
       })
       .catch((error) => {
