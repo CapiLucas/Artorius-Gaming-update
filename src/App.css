@@ -339,6 +339,11 @@ footer .container {
   border-radius: 15px;
   background-color: green;
 }
+.Cerrar{
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
 @media (max-width: 768px) {
   .banner{
     height: 75vh;
