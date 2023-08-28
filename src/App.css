@@ -367,6 +367,7 @@ footer .container {
 @media (max-width: 425px) {
   #jokeContainer{
     width: 100px;
+    font-size: 7px;
   }
   .info p {
     font-size: 8px;
@@ -391,12 +392,15 @@ footer .container {
   }
   .joke{
     width: 100px;
+    font-size: 7px;
   }
   .setup{
     width: 100px;
+    font-size: 7px;
   }
   .delivery{
     width: 100px;
+    font-size: 7px;
   }
 
 }
