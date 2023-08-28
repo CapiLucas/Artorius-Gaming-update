@@ -366,7 +366,7 @@ footer .container {
 }
 @media (max-width: 425px) {
   #jokeContainer{
-    width: 155px;
+    width: 100px;
   }
   .info p {
     font-size: 8px;
@@ -384,4 +384,19 @@ footer .container {
     margin-left: 0px;
   }
   
+}
+@media (max-width: 320px) {
+  .navbar{
+    width: 320px;
+  }
+  .joke{
+    width: 100px;
+  }
+  .setup{
+    width: 100px;
+  }
+  .delivery{
+    width: 100px;
+  }
+
 }
