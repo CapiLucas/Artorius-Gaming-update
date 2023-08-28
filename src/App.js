@@ -20,6 +20,7 @@ function App() {
     <div className="App">
       <CartProvider>
         <BrowserRouter>
+          <Sifbot/>
           <NavBar />
           <Banner/>
           <Saludo greeting="¡Bienvenido a nuestra tienda en línea!" />
