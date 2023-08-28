@@ -1,6 +1,6 @@
 export const Banner = () => {
     return (
-      <div>
+      <div className="bannerContainer">
         <img className="banner" src="../images/banner.png" alt="imgBanner"></img>
       </div>
     );

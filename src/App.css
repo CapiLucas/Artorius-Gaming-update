@@ -112,6 +112,9 @@ nav{
   border-radius:15px ;
   color: black;
 }
+.bannerContainer{
+  width: 100%;
+}
 .banner{
   margin-top: 86px;
   width: 100%;
@@ -143,6 +146,7 @@ nav{
   width: 320px;
   position: fixed;
   bottom: 280px;
+  right: 100px;
   font-weight: bold;
   background-color: white;
 }
@@ -366,14 +370,14 @@ footer .container {
 }
 @media (max-width: 425px) {
   #jokeContainer{
-    width: auto;
+    width: 100px;
     font-size: 7px!important;
   }
   .info p {
-    font-size: 8px;
+    font-size: 7px;
   }
   .credits p {
-    font-size: 8px;
+    font-size: 7px;
   }
   .mail a {
     font-size: 8px;
@@ -388,6 +392,9 @@ footer .container {
 }
 @media (max-width: 320px) {
   .navbar{
-    width: 320px;
+    width: 320px!important;
+  }
+  .bannerContainer{
+    width: 100%;
   }
 }
