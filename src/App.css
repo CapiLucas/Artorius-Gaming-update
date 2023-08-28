@@ -361,6 +361,9 @@ footer .container {
   }
 }
 @media (max-width: 768px) {
+  .mail a{
+    font-size: 12px;
+  }
   .banner{
     height: 30vh;
   }
