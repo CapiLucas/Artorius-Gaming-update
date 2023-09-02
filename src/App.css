@@ -51,9 +51,6 @@ nav{
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   color: white!important;
-  border: 1px solid white;
-  background: darkcyan;
-  border-radius: 15px;
   margin-left: 5px;
 }
 .links{
